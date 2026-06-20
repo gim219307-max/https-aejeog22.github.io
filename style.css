@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Gaegu', cursive;
+    background:
+    radial-gradient(circle at top,
+    #fff7fb 0%,
+    #ffe6f0 50%,
+    #ffd6e8 100%);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.container{
+    width:100%;
+    max-width:420px;
+    background:rgba(255,255,255,0.8);
+    backdrop-filter:blur(10px);
+    border:3px solid #ffd1e3;
+    border-radius:30px;
+    padding:35px;
+    text-align:center;
+    box-shadow:
+    0 0 20px rgba(255,182,193,.4);
+}
+
+.rosette{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.profile{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+    box-shadow:0 0 15px rgba(255,192,203,.6);
+}
+
+h1{
+    margin-top:15px;
+    color:#ff5f9e;
+    font-size:2.2rem;
+}
+
+.intro{
+    margin-top:8px;
+    color:#b86f8c;
+    font-size:1.1rem;
+}
+
+.links{
+    margin-top:25px;
+}
+
+.links a{
+    display:block;
+    text-decoration:none;
+    color:#ff5f9e;
+    background:white;
+    margin:12px 0;
+    padding:15px;
+    border-radius:999px;
+    border:2px solid #ffd1e3;
+    font-size:1.1rem;
+    transition:.3s;
+}
+
+.links a:hover{
+    transform:translateY(-3px);
+    background:#fff0f6;
+    box-shadow:0 5px 15px rgba(255,182,193,.4);
+}
+
+footer{
+    margin-top:25px;
+    color:#d48aa7;
+    font-size:.9rem;
+}
